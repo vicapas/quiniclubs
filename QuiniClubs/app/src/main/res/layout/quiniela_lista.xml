@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/lay_lista_quiniela"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    >
+
+    <TextView
+        style="@style/lista_quiniela_numeros"
+        android:id="@+id/tv_numero_partido"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:text="15"
+        />
+
+    <ImageView
+        style="@style/escudos"
+        android:id="@+id/iv_escudo_local_quiniela"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="left|center_vertical"
+        />
+
+    <ImageView
+        style="@style/escudos"
+        android:id="@+id/iv_escudo_visitante_quiniela"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="left|center_vertical"
+        />
+
+    <TextView
+        style="@style/lista_quiniela"
+        android:id="@+id/tv_nombre_partido_quiniela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:text="@string/lb_nombre_partido"
+        />
+
+    <TextView
+        style="@style/lista_quiniela_numeros"
+        android:id="@+id/tv_quiniela_apuesta"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:text="X"
+        android:gravity="right" />
+
+</LinearLayout>

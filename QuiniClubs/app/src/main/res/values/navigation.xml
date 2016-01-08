@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="opcionesNavegador">
+        <item>@string/drawer_menu_tuquiniela</item>
+        <item>@string/drawer_menu_comunidad</item>
+        <item>@string/drawer_menu_unirse</item>
+        <item>@string/drawer_menu_crear_comunidad</item>
+        <item>@string/drawer_menu_ajustes</item>
+        <item>@string/drawer_menu_cerrar</item>
+    </string-array>
+
+    <array name="iconosNavegador">
+        <item>@drawable/ic_action_pronostico</item>
+        <item>@drawable/ic_action_resultados</item>
+        <item>@drawable/ic_action_unirse</item>
+        <item>@drawable/ic_action_crear_comunidad</item>
+        <item>@drawable/ic_action_ajustes</item>
+        <item>@drawable/ic_action_user</item>
+    </array>
+
+    <string name="abrirNavegador">Cajon abierto</string>
+    <string name="cerrarNavegador">Cajon cerrado</string>
+    <string name="subtitle_pronostico">Jornada 22</string>
+
+</resources>

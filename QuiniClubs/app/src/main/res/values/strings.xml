@@ -1,0 +1,94 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">QuiniClubs</string>
+    <string name="ajustes">Ajustes</string>
+    <!-- Activity Login -->
+    <string name="titulo_login">Acceso de Usuario</string>
+    <string name="hint_login_usuario">Usuario</string>
+    <string name="hint_login_password">Contraseña</string>
+    <string name="bt_login">Acceder</string>
+    <string name="bt_registrar">Registrarse</string>
+    <string name="warning_login_acceso">El usuario o contraseña no son correctos</string>
+    <string name="warning_login_nodata">No se han podido cargar los datos de usuario</string>
+    <!-- Activity Registro -->
+    <string name="title_activity_registro">Registro</string>
+    <string name="titulo_registro">Alta Nuevo Usuario</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_password2">Repite la Contraseña</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellidos">Apellidos</string>
+    <string name="bt_cancelar">Cancelar</string>
+    <string name="warning_registro_wrongpass">Las contraseñas no coinciden</string>
+    <string name="info_registro_entering">Ingresando</string>
+    <string name="warning_registro_fail">No se ha podido completar el registro</string>
+    <string name="warning_registro_conectionfail">No se ha podido completar el registro</string>
+    <!-- Activity Pronostico -->
+    <string name="title_activity_pronosticos">Pronostico</string>
+    <string name="title_activity_partido_lista">partidoLista</string>
+    <string name="lb_nombre_partido">Nombre del Partido</string>
+    <string name="info_pronostico_sending">Enviando tu pronóstico</string>
+    <string name="info_pronostico_stored">Se ha guardado tu pronóstico</string>
+    <string name="info_pronostico_failcommit">No se ha podido confirmar tu pronóstico</string>
+    <string name="info_pronostico_failconnection">Problema de conexión con el servidor</string>
+    <string name="warning_pronostico_complete">No se han marcado todos los partidos</string>
+    <string name="info_pronostico_downloadingmatches">Obteniendo Jornada Actual</string>
+    <string name="info_pronostico_noquiniela">Esta semana no hay quiniela</string>
+    <string name="info_pronostico_failquiniela">No se ha conseguido obtener la quiniela</string>
+    <string name="bt_pronostico_confirmar">Confirmar</string>
+    <string name="tv_pronostico_title">Sin Comunidad</string>
+    <!--Activity QuinielaUsuario-->
+    <string name="info_quinielausuario_datadownloading">Obteniendo datos</string>
+    <string name="warning_quinielausuario_dontdoit">Aún no has hecho la quiniela</string>
+    <string name="warning_quinielausuario_noquiniela">Esta semana no hay quiniela</string>
+    <string name="warning_quinielausuario_failquiniela">No se ha conseguido obtener la quiniela</string>
+    <string name="bt_quinielausuario_pronosticar">Pronosticar Quiniela</string>
+    <string name="bt_quinielausuario_modificar">Modificar Pronóstico</string>
+    <string name="tv_quinielausuario_titulo">Tu Quiniela</string>
+    <!--Activity QuinielaComunidad-->
+    <string name="warning_quinielcomunidad_nodata">Ningún pronóstico realizado</string>
+    <string name="warning_quinielcomunidad_noquiniela">Esta semana no hay quiniela</string>
+    <string name="warning_quinielcomunidad_failquiniela">No se ha conseguido obtener la quiniela</string>
+    <string name="info_quinielcomunidad_nocommunity">Sin comunidad</string>
+    <!--Activity Unirse-->
+    <string name="info_unirse_entering">Ingresando en la comunidad</string>
+    <string name="info_unirse_joined">Se ha unido a la comunidad</string>
+    <string name="warning_unirse_incorrectpassword">La contraseña de la comunidad es incorrecta</string>
+    <string name="warning_unirse_cannotenter">No se ha podido ingresar en la comunidad</string>
+    <string name="warning_unirse_errorconnection">Error en la conexión con el servidor</string>
+    <string name="info_unirse_nota">Se necesita el código de la comunidad y la contraseña para poder unirse</string>
+    <string name="bt_unirse">Unirse</string>
+    <string name="tv_unirse_title">Acceder a una Comunidad</string>
+    <string name="et_unirse_codigocomunidad">Código Comunidad</string>
+    <!--Activity Ajustes-->
+    <string name="warning_ajustes_nodata">No ha sido posible obtener sus datos</string>
+    <string name="warning_ajustes_errorconnection">Error en la conexión con el servidor</string>
+    <string name="info_ajustes_datamodify">Modificando datos</string>
+    <string name="info_ajustes_modifyok">Modificando datos</string>
+    <string name="warning_ajustes_failmodify">Modificando datos</string>
+    <string name="tv_ajustes_title">Modificar Datos Personales</string>
+    <string name="bt_ajustes_modificar">Modificar</string>
+    <!--Activity NuevaComunidad-->
+    <string name="info_nueva_creating">Creando comunidad</string>
+    <string name="info_nueva_nuevaok">Se ha creado la comunidad </string>
+    <string name="warning_nueva_nuevafail">No ha sido posible crear la comunidad</string>
+    <string name="tv_nueva_title">Crear Nueva Comunidad</string>
+    <string name="hint_nueva_codigo">Código Comunidad</string>
+    <string name="bt_nueva">Crear</string>
+    <!--Varios-->
+    <string name="title_activity_quiniela">Quiniela</string>
+    <string name="title_activity_quiniela_comunidad">Resultado Comunidad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_menu_tuquiniela">Tu Quiniela</string>
+    <string name="drawer_menu_comunidad">Comunidad</string>
+    <string name="drawer_menu_unirse">Unirse</string>
+    <string name="drawer_menu_crear_comunidad">Crear Comunidad</string>
+    <string name="drawer_menu_ajustes">Ajustes</string>
+    <string name="drawer_menu_cerrar">Cerrar Sesión</string>
+    <string name="title_activity_unirse">Unirse</string>
+    <string name="title_activity_nueva_comunidad">NuevaComunidad</string>
+    <string name="title_activity_ajustes">Ajustes</string>
+
+</resources>

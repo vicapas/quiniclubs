@@ -1,0 +1,109 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedor_principal_unirse"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/fondo_layouts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.kamarena.pfc.quiniclubs.QuinielaUsuario">
+
+        <TextView
+            style="@style/titulo_layouts"
+            android:id="@+id/tv_titulo_unirse"
+            android:textColor="#FFFFFF"
+            android:background="@color/apptheme_darker"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_unirse_title"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/et_comunidad_unirse"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tv_titulo_unirse"
+            android:hint="@string/et_unirse_codigocomunidad"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_password_unirse"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/et_comunidad_unirse"
+            android:hint="@string/hint_login_password"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+            android:id="@+id/tv_nota_unirse"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/et_password_unirse"
+            android:textColor="@color/apptheme_darker"
+            android:text="@string/info_unirse_nota"
+            />
+
+        <LinearLayout
+            android:id="@+id/lay_unirse_buttons"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+
+            <Button
+                android:id="@+id/bt_cancelar_unirse"
+                style="@style/boton2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/bt_cancelar"
+                />
+
+            <Button
+                android:id="@+id/bt_acceder_unirse"
+                style="@style/boton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/bt_unirse"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Lista menu de la izquierda -->
+    <ListView
+        android:id="@+id/menu_drawer_unirse"
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:background="@color/apptheme_color"
+        android:choiceMode="singleChoice"
+        android:divider="@color/secondary_color"
+        android:padding="0dp"
+        android:dividerHeight="1dp" />
+
+</android.support.v4.widget.DrawerLayout>
+

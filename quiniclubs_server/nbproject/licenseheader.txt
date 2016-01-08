@@ -1,0 +1,10 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}TODO: Nombre del guión
+${licensePrefix}
+${licensePrefix}Creado ${date}
+${licensePrefix}@author: kamarena
+<#if licenseLast??>
+${licenseLast}
+</#if>

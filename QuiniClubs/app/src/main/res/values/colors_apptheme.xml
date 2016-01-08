@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="negro">#222222</color>
+    <color name="apptheme_color">#669900</color>
+    <color name="apptheme_darker">#527A00</color>
+    <color name="apptheme_lighter">#94B84D</color>
+    <color name="secondary_color">#E0EBCC</color>
+    <color name="secondary_lighter">#F0F5E6</color>
+    <color name="boton_primary">#99CC00</color>
+    <color name="boton_start">#B8DB4D</color>
+    <color name="boton_end">#6B8F00</color>
+    <color name="boton_focused">#C2E066</color>
+    <color name="boton_pressed">#5C7A00</color>
+    <color name="boton2_primary">#C2D699</color>
+    <color name="boton2_start">#F0F5E6</color>
+    <color name="boton2_end">#94B84D</color>
+    <color name="boton2_text">#527A00</color>
+    <color name="boton2_focused">#FFFFFF</color>
+    <color name="boton2_pressed">#85AD33</color>
+</resources>
